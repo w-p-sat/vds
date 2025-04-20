@@ -1,4 +1,3 @@
-<script>
 document.getElementById('send-viber-btn').addEventListener('click', function () {
     const fullname = document.getElementById('fullname').value;
     const phone = document.getElementById('phone').value;
@@ -32,4 +31,3 @@ document.getElementById('send-viber-btn').addEventListener('click', function () 
 
     window.location.href = viberURL;
 });
-</script>
